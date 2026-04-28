@@ -1,5 +1,4 @@
-# Atividade Reflexiva produção individual:
-
+ # Atividade Reflexiva produção individual:
 - Elaborar um parecer sobre a Unidade II.O que foi praticado (sugestões de código, refatoração, automação).Relação com o conteúdo estudado (workflow, boas práticas, ética).Ferramentas utilizadas: Copilot, Replit, Ghostwriter
 
 *Programação por pares: ( uma nova era ):*
@@ -83,7 +82,7 @@ try:
     op = input("Operação (+, -, *, /): ")
     n2 = float(input("Segundo número: "))
 
-    if op in operacoes:
+if op in operacoes:
         if op == "/" and n2 == 0:
             print("Erro: Divisão por zero.")
         else:
