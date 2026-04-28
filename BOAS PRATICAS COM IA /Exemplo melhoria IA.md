@@ -24,6 +24,7 @@ print(" CALCULADORA PYTHON ")
 print("="*20)
 
 # Entrada de dados
+
 num1 = float(input("Digite o primeiro número: "))
 print("Operações disponíveis: + , - , * , /")
 operacao = input("Escolha a operação: ")
@@ -33,12 +34,15 @@ num2 = float(input("Digite o segundo número: "))
 if operacao == "+":
     resultado = num1 + num2
     simbolo = "+"
+
 elif operacao == "-":
     resultado = num1 - num2
     simbolo = "-"
+
 elif operacao == "*":
     resultado = num1 * num2
     simbolo = "*"
+
 elif operacao == "/":
     # Verificação para não dividir por zero
     if num2 == 0:
