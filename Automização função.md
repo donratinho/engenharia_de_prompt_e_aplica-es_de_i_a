@@ -1,4 +1,5 @@
 1. Documentação Automática de Código Legado
+
 O Problema Real: Desenvolvedores perdem semanas tentando entender sistemas antigos (código legado) sem documentação antes de implementar novas features ou corrigir bugs.
 
 O Gap: Ferramentas atuais geram comentários simples de código, mas não explicam a arquitetura ou o impacto de alterar uma função em outras partes do sistema.
